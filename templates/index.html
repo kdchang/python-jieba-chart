@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jeiba Chart 結巴圖析</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.css') }}">	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">	
+</head>
+<body>
+    <div class="container">
+      <div class="header clearfix">
+        <h3 class="text-muted">JeibaChart {{ title }}</h3>
+      </div>
+
+      <div class="jumbotron">
+		<form action="submit" method="post">
+			<label>請輸入您想分析的文章</label>
+			<textarea class="form-control content" name="content" placeholder="文章內容"></textarea>
+			<hr>
+			<button class="btn btn-lg btn-primary">提交送出</button>		
+		</form>	
+      </div>
+
+      <div class="row marketing">
+		<div class="container">
+			<canvas id="data-chart"></canvas>	
+		</div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2016 JeibaChart 結巴圖析</p>
+      </footer>
+</body>
+</html>

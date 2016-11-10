@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jeiba Chart 結巴圖析</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.css') }}">	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">	
+</head>
+<body>
+	<div class="container">
+		<h3>分析結果</h3>
+		<ol class="breadcrumb">
+		    <li><a href="/">Home</a></li>
+		    <li class="active">Results</li>
+		</ol>
+		<div class="container">
+			<canvas id="data-chart"></canvas>	
+		</div>
+
+		<footer class="footer">
+		<p>&copy; 2016 JeibaChart 結巴圖析</p>
+		</footer>		
+	</div>
+	<script type=text/javascript src="{{ url_for('static', filename='js/bundle.js') }}"></script>
+</body>
+</html>
