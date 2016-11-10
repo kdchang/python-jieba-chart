@@ -1,5 +1,8 @@
 # JeibaChart 
-A online Chinese text segmentation visualization tool based Jeiba.
+A online Chinese text segmentation visualization tool based Python/Jeiba.
+
+![JeibaChart](demo-1.png)
+![JeibaChart](demo-2.png)
 
 ## Usage 
 
