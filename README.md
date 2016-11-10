@@ -3,6 +3,14 @@ A online Chinese text segmentation visualization tool based Jeiba.
 
 ## Usage 
 
+```
+$ git clone https://github.com/kdchang/python-jieba-chart.git
+```
+
+```
+$ cd python-jieba-chart
+```
+
 Setup virtualenv
 
 ```
@@ -14,5 +22,12 @@ $ source/python-jieba-chart-venv/bin/activate
 ```
 
 ```
-$ git clone 
+$ npm install && bower install
 ```
+
+```
+$ npm start
+```
+
+# License
+MIT
