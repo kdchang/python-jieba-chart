@@ -28,6 +28,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "bower": "^1.8.0",
     "chart.js": "^2.3.0"
   }
 }
