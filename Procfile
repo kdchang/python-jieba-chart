@@ -1,1 +1,1 @@
-web: python app.py
+web: npm install && bower install && gunicorn app:app --log-file -
