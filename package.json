@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pip install && python app.py",
+    "start": "gulp build",
     "build": "gulp build"
   },
   "author": "kdchang",
