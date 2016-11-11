@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && gulp build",
+    "start": "gulp build",
     "build": "gulp build"
   },
   "author": "kdchang",
