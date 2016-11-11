@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "bower cache clean && bower install",
-    "start": "gulp build && python app.py",
+    "start": "python app.py",
     "build": "gulp build"
   },
   "author": "kdchang",
