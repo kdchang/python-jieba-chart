@@ -1,4 +1,5 @@
-# encoding: utf-8
+# encoding=utf8  
+import sys 
 from flask import Flask, render_template, redirect, request, url_for
 import json
 import jieba
