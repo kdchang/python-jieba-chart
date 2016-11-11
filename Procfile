@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file -
+web: pip install && gunicorn app:app --log-file -
