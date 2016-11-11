@@ -25,6 +25,10 @@ $ source/python-jieba-chart-venv/bin/activate
 ```
 
 ```
+$ pip install requirements.txt
+```
+
+```
 $ npm install && bower install
 ```
 
