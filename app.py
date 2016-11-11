@@ -1,5 +1,7 @@
-# encoding=utf8  
-import sys 
+#coding=utf-8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 from flask import Flask, render_template, redirect, request, url_for
 import json
 import jieba
