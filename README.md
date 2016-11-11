@@ -14,10 +14,10 @@ $ git clone https://github.com/kdchang/python-jieba-chart.git
 $ cd python-jieba-chart
 ```
 
-Setup virtualenv
+Setup virtualenv（Python3）
 
 ```
-$ virtualenv -m python3 python-jieba-chart-venv
+$ virtualenv -p python3 python-jieba-chart-venv
 ```
 
 ```
@@ -34,3 +34,6 @@ $ npm start
 
 # License
 MIT
+
+# Documents
+1. [Official Website](https://virtualenv.pypa.io/en/stable/)
