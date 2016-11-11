@@ -26,6 +26,7 @@ def handleAnalytic():
         stopwords = [stopword.strip('\n') for stopword in stopwords]
         stopwords.append('\n');
         stopwords.append('\r\n');
+        stopwords.append(' ');
 
         for item in seglist:
             if item in stopwords:
