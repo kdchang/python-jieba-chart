@@ -1,5 +1,5 @@
 {
-  "directory": "dist/bower_components/",
+  "directory": "static/bower_components/",
   "timeout": 120000,
   "registry": {
     "search": [
