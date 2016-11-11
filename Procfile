@@ -1,2 +1,1 @@
-web: apt-get install python-pip
- && pip install && gunicorn app:app --log-file -
+web: python app.py
