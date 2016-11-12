@@ -5,10 +5,12 @@ let data = '';
 let str = '';
 
 function fetchData() {
+    const loadingRef = document.querySelector('#loading');
     fetch(REQUEST_URL).then((response) => {
         return response.json();
     }).then(function(json) {
       data = json;
+      loadingRef.style.display = 'none';
       loadChart(data);
     });
 }
