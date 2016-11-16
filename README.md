@@ -1,5 +1,5 @@
 # JeibaChart 
-An online Chinese text segmentation visualization tool based on Python / Flask / [Jeiba](https://github.com/fxsjy/jieba).
+An online Chinese text segmentation visualization tool based on Python / Flask / [Jieba](https://github.com/fxsjy/jieba).
 
 ![JeibaChart](demo-1.png)
 ![JeibaChart](demo-2.png)
